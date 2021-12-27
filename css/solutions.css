@@ -98,24 +98,26 @@ h1 {
         float: left;
         width: 31.16%;
     }
+}
 
 /********** Tablet devices only **********/
   @media (min-width: 768px) and (max-width: 991px) {
-    #ChickenContainer, #BeefContainer, #SushiContainer {
-      float: left;
-    }
 
     #ChickenBox {
         width: 48%;
+        float: left;
     }
 
     #BeefBox {
         width: 48%;
+        float: left;
     }
     
     #TofuBox {
         width: 98.1%;
+        float: left;
     }
+  }
 
 /********** Mobile devices only **********/
 @media (max-width: 767px) {
@@ -134,3 +136,4 @@ h1 {
         width: 90%;
         margin-left: 5%;
     }
+}
